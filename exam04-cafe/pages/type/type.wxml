@@ -1,0 +1,57 @@
+<view class="content">
+<view class="line"></view>
+<view class="item">
+   <view class="title">小店服务</view>
+   <view class="hr"></view>
+   <view class="navs">
+      <view class="nav">
+         <view><image src="../../images/type/a.jpg" style="width:38px;height:38px;"></image></view>
+         <view>提前预定</view>
+      </view>
+      <view class="nav">
+         <view><image src="../../images/type/b.jpg" style="width:38px;height:38px;"></image></view>
+         <view>咖啡外送</view>
+      </view>
+      <view class="nav">
+         <view><image src="../../images/type/c.jpg" style="width:38px;height:38px;"></image></view>
+         <view>小店位置</view>
+      </view>
+   </view>
+</view>
+
+
+<view class="line"></view>
+<view class="item">
+   <view class="title">特色咖啡</view>
+   <view class="hr"></view>
+   <view class="navs">
+      <view class="nav">
+         <view>咖啡种类</view>
+      </view>
+      <view class="nav">
+         <view>咖啡介绍</view>
+      </view>
+      <view class="nav">
+         <view>咖啡价钱</view>
+      </view>
+      <view class="nav">
+         <view>抽奖送咖啡</view>
+      </view>
+   </view>
+    <view class="navs">
+      <view class="nav">
+         <view>打折券</view>
+      </view>
+      <view class="nav">
+         <view>预约</view>
+      </view>
+      <view class="nav">
+         <view>评论</view>
+      </view>
+      <view class="nav">
+      </view>
+   </view>
+</view>
+<view class="line"></view>
+
+</view>

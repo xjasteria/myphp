@@ -1,0 +1,35 @@
+{
+  "pages": [
+    "pages/index/index",
+    "pages/cash/cash",
+    "pages/me/me",
+    "pages/type/type"
+  ],
+  "window": {
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#D73E3E",
+    "navigationBarTitleText": "MyCafe",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "selectedColor": "#D73E3E",
+    "backgroundColor": "#F3F1EF",
+    "borderStyle": "white",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "首页",
+      "iconPath": "images/bar/index-0.jpg",
+      "selectedIconPath": "images/bar/index-1.jpg"
+    },{
+      "pagePath": "pages/cash/cash",
+      "text": "咖啡",
+      "iconPath": "images/bar/cash-0.jpg",
+      "selectedIconPath": "images/bar/cash-1.jpg"
+    },{
+      "pagePath": "pages/me/me",
+      "text": "我的",
+      "iconPath": "images/bar/me-0.jpg",
+      "selectedIconPath": "images/bar/me-1.jpg"
+    }]
+  }
+}

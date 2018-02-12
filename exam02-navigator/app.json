@@ -1,0 +1,26 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/res/res",
+    "pages/me/me"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#D53E37",
+    "navigationBarTitleText": "导航",
+    "navigationBarTextStyle":"white"
+    },
+    "tabBar":{
+      "selectedColor": "red",
+      "list": [{
+        "pagePath": "pages/index/index",
+        "text": "首页"
+      },{
+        "pagePath": "pages/res/res",
+        "text": "当前页打开导航"
+      }]
+    }
+  }
+
+
+

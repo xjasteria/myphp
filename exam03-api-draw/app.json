@@ -1,0 +1,14 @@
+{
+  "pages":[
+    "pages/me/me"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#D53E37",
+    "navigationBarTitleText": "API",
+    "navigationBarTextStyle":"white"
+    }
+  }
+
+
+

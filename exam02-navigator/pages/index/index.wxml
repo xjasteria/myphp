@@ -1,0 +1,5 @@
+<view class="btn-area">
+  <navigator url="../me/me?title=me" hover-class="navigator-hover">保留当前页跳转</navigator>
+  <navigator url="../res/res?title=res" open-type="redirect" hover-class="other-navigator-hover">关闭当前页跳转</navigator>
+   <navigator url="../res/res" open-type="switchTab" hover-class="other-navigator-hover">切换 Tab</navigator> 
+</view>

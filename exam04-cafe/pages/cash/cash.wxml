@@ -1,0 +1,74 @@
+  <dl class="menu">
+     <dt data-index="0" bindtap="tapMainMenu" class="{{currentTab==0?'select':'defalut'}}">全部</dt>
+     <dd class="{{subMenuDispaly[0]}}">
+         <ul>
+           <li class="select">全部</li>
+           <li>茶</li>
+           <li>意大利特浓咖啡</li>
+           <li>美式咖啡</li>
+           <li>拿铁咖啡</li>
+           <li>卡布奇诺咖啡</li>
+         </ul>
+     </dd>
+  </dl>
+  <view class="items">
+     <view class="item">
+        <view><image src="../../images/cash/tea.jpg" style="width:93px;height:73px;"></image></view>
+        <view class="des">
+           <view class="title">
+               茶<text class="apply">本月已售110份</text>
+           </view>
+           <view class="hr"></view>
+           <view class="price">￥5-20</view>
+        </view>
+     </view>
+     <view class="line"></view>
+
+     <view class="item">
+        <view><image src="../../images/cash/c1.jpg" style="width:93px;height:73px;"></image></view>
+        <view class="des">
+           <view class="title">
+               意大利特浓咖啡<text class="apply">本月已售99份</text>
+           </view>
+           <view class="hr"></view>
+           <view class="price">￥33</view>
+        </view>
+     </view>
+     <view class="line"></view>
+
+     <view class="item">
+        <view><image src="../../images/cash/c2.jpg" style="width:93px;height:73px;"></image></view>
+        <view class="des">
+           <view class="title">
+            美式咖啡<text class="apply">本月已售88份</text>
+           </view>
+           <view class="hr"></view>
+           <view class="price">￥44</view>
+        </view>
+     </view>
+     <view class="line"></view>
+
+     <view class="item">
+        <view><image src="../../images/cash/c3.jpg" style="width:93px;height:73px;"></image></view>
+        <view class="des">
+           <view class="title">
+               拿铁咖啡<text class="apply">本月已售77份</text>
+           </view>
+           <view class="hr"></view>
+           <view class="price">￥55</view>
+        </view>
+     </view>
+     <view class="line"></view>
+
+     <view class="item">
+        <view><image src="../../images/cash/c4.jpg" style="width:93px;height:73px;"></image></view>
+        <view class="des">
+           <view class="title">
+               卡布奇诺咖啡<text class="apply">本月已售120份</text>
+           </view>
+           <view class="hr"></view>
+           <view class="price">￥66</view>
+        </view>
+     </view>
+     <view class="line"></view>
+  </view>
