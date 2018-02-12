@@ -1,0 +1,1122 @@
+[ 2018-01-30T15:25:00+08:00 ] ::1 /phpwork/mythinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000020s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000542s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.004310s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.004356s ]
+NOTIC: [8] Undefined variable: len D:\AppServ\www\phpwork\mythinkphp\ThinkPHP\Library\Think\Model\ViewModel.class.php 第 55 行.
+NOTIC: [2] implode(): Invalid arguments passed D:\AppServ\www\phpwork\mythinkphp\ThinkPHP\Library\Think\Db\Driver.class.php 第 480 行.
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM  LIMIT 1  
+ERR: 1064:You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near 'LIMIT 1' at line 1
+ [ SQL语句 ] : SELECT COUNT(*) AS tp_count FROM  LIMIT 1  
+
+[ 2018-01-30T15:27:34+08:00 ] ::1 /phpwork/mythinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000640s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000847s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000915s ]
+SQL: SHOW COLUMNS FROM `mb_message` [ RunTime:0.0012s ]
+SQL: SHOW COLUMNS FROM `mb_user` [ RunTime:0.0010s ]
+SQL: SELECT COUNT(*) AS tp_count FROM mb_message Message  JOIN mb_user User ON User.user_id=Message.user_id LIMIT 1   [ RunTime:0.0003s ]
+SQL: SELECT Message.message_id AS message_id,Message.content AS content,Message.created_at AS created_at,User.user_id AS user_id,User.username AS username FROM mb_message Message  JOIN mb_user User ON User.user_id=Message.user_id ORDER BY Message.message_id desc LIMIT 0,10   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000041s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000088s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.043960s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.044005s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.013009s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.013052s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.019297s ]
+INFO: [ app_end ] --END-- [ RunTime:0.019339s ]
+
+[ 2018-01-30T15:27:39+08:00 ] ::1 /phpwork/mythinkphp/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000408s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004774s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004824s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000347s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000554s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000599s ]
+
+[ 2018-01-30T15:27:50+08:00 ] ::1 /phpwork/mythinkphp/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000381s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000445s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004583s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004632s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000274s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2018-01-30T15:27:55+08:00 ] ::1 /phpwork/mythinkphp/index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000455s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004513s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004555s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000284s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000475s ]
+
+[ 2018-01-30T15:35:16+08:00 ] ::1 /phpwork/mythinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000636s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000816s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000882s ]
+NOTIC: [8] Undefined variable: show D:\AppServ\www\phpwork\mythinkphp\Application\Home\Controller\IndexController.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000122s ]
+NOTIC: [8] Undefined variable: list D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008922s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008973s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000518s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000563s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000747s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000798s ]
+
+[ 2018-01-30T15:35:20+08:00 ] ::1 /phpwork/mythinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000485s ]
+NOTIC: [8] Undefined variable: show D:\AppServ\www\phpwork\mythinkphp\Application\Home\Controller\IndexController.class.php 第 32 行.
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined variable: list D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005330s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005368s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000439s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2018-01-30T15:35:27+08:00 ] ::1 /phpwork/mythinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000538s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000581s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined variable: list D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Undefined variable: page D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006017s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006057s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000354s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000522s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000555s ]
+
+[ 2018-01-30T15:35:27+08:00 ] ::1 /phpwork/mythinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000796s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000655s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000723s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000076s ]
+NOTIC: [8] Undefined variable: list D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Undefined variable: page D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006136s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006186s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000286s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000316s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000537s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000572s ]
+
+[ 2018-01-30T15:35:28+08:00 ] ::1 /phpwork/mythinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined variable: list D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Undefined variable: page D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005329s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005367s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2018-01-30T15:35:28+08:00 ] ::1 /phpwork/mythinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000067s ]
+NOTIC: [8] Undefined variable: list D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Undefined variable: page D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005323s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005360s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000316s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000547s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2018-01-30T15:35:28+08:00 ] ::1 /phpwork/mythinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000467s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000990s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001069s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: list D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Undefined variable: page D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005462s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005509s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000278s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000469s ]
+
+[ 2018-01-30T15:35:37+08:00 ] ::1 /phpwork/mythinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000369s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000580s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000631s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000691s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000762s ]
+
+[ 2018-01-30T15:35:37+08:00 ] ::1 /phpwork/mythinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000449s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000492s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2018-01-30T15:35:38+08:00 ] ::1 /phpwork/mythinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000552s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000528s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2018-01-30T15:35:38+08:00 ] ::1 /phpwork/mythinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000467s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000519s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2018-01-30T15:35:38+08:00 ] ::1 /phpwork/mythinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000370s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000496s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000536s ]
+
+[ 2018-01-30T15:41:13+08:00 ] ::1 /phpwork/mythinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000414s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000586s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000075s ]
+NOTIC: [8] Undefined variable: list D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 17 行.
+NOTIC: [8] Undefined variable: page D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 24 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006499s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006550s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000485s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000526s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000620s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000653s ]
+
+[ 2018-01-30T15:48:58+08:00 ] ::1 /phpwork/mythinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000419s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000571s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000615s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined variable: list D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: page D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006191s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006244s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000402s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000439s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2018-01-30T15:48:59+08:00 ] ::1 /phpwork/mythinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000511s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined variable: list D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: page D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005364s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000277s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2018-01-30T15:48:59+08:00 ] ::1 /phpwork/mythinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000380s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+NOTIC: [8] Undefined variable: list D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: page D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005326s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005363s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000306s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2018-01-30T15:48:59+08:00 ] ::1 /phpwork/mythinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000366s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000497s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000050s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000146s ]
+NOTIC: [8] Undefined variable: list D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: page D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007514s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007573s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000425s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000479s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000608s ]
+
+[ 2018-01-30T15:48:59+08:00 ] ::1 /phpwork/mythinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000485s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000657s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000717s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: list D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: page D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005463s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005513s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000355s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000460s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000497s ]
+
+[ 2018-01-30T15:50:18+08:00 ] ::1 /phpwork/mythinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000410s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000537s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000580s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000078s ]
+NOTIC: [8] Undefined variable: list D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: page D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006099s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006137s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000356s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000521s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000552s ]
+
+[ 2018-01-30T15:50:18+08:00 ] ::1 /phpwork/mythinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000442s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000055s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000128s ]
+NOTIC: [8] Undefined variable: list D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: page D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.008254s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.008294s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000295s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000325s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000495s ]
+
+[ 2018-01-30T15:50:18+08:00 ] ::1 /phpwork/mythinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000466s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000450s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000494s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000056s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000118s ]
+NOTIC: [8] Undefined variable: list D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: page D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007212s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007317s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000393s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000433s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000453s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000487s ]
+
+[ 2018-01-30T15:50:19+08:00 ] ::1 /phpwork/mythinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000009s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000365s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000436s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000475s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+NOTIC: [8] Undefined variable: list D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: page D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005688s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005730s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000374s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000479s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000514s ]
+
+[ 2018-01-30T16:34:09+08:00 ] ::1 /phpwork/mythinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000445s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000600s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000653s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: list D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: page D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005865s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005903s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000421s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000453s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000556s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000589s ]
+
+[ 2018-01-30T16:34:15+08:00 ] ::1 /phpwork/mythinkphp/index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004197s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004238s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000301s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000438s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000471s ]
+
+[ 2018-01-30T16:34:30+08:00 ] ::1 /phpwork/mythinkphp/index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000372s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000521s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000565s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004220s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004263s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2018-01-30T16:34:33+08:00 ] ::1 /phpwork/mythinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000044s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000110s ]
+NOTIC: [8] Undefined variable: list D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: page D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005804s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005844s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000299s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000331s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000498s ]
+
+[ 2018-01-30T16:34:34+08:00 ] ::1 /phpwork/mythinkphp/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000378s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000458s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004141s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004183s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000442s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000476s ]
+
+[ 2018-01-30T16:34:36+08:00 ] ::1 /phpwork/mythinkphp/index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000397s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000446s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000038s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000095s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004658s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004710s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000339s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000382s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000568s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000615s ]
+
+[ 2018-01-30T16:34:37+08:00 ] ::1 /phpwork/mythinkphp/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000383s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000440s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000483s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004177s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004224s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000304s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000340s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000455s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000489s ]
+
+[ 2018-01-30T16:42:55+08:00 ] ::1 /phpwork/mythinkphp/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000412s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000540s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000582s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005864s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005908s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000408s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000444s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000529s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000568s ]
+
+[ 2018-01-30T17:02:52+08:00 ] ::1 /phpwork/mythinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000018s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000957s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.001028s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000042s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000097s ]
+NOTIC: [8] Undefined variable: list D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: page D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.010143s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.010277s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000644s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000702s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000893s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000952s ]
+
+[ 2018-01-30T17:02:54+08:00 ] ::1 /phpwork/mythinkphp/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000522s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000575s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004358s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004404s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000297s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000330s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000452s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000485s ]
+
+[ 2018-01-30T17:03:00+08:00 ] ::1 /phpwork/mythinkphp/index.php/Home/User/do_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000401s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000476s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000518s ]
+SQL: SHOW COLUMNS FROM `mb_user` [ RunTime:0.0037s ]
+SQL: SELECT * FROM `mb_user` WHERE `username` = 'xj' LIMIT 1   [ RunTime:0.0004s ]
+
+[ 2018-01-30T17:03:00+08:00 ] ::1 /phpwork/mythinkphp/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000487s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000077s ]
+NOTIC: [8] Undefined variable: list D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: page D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005396s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005435s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000441s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000473s ]
+
+[ 2018-01-30T17:03:06+08:00 ] ::1 /phpwork/mythinkphp/index.php/Home/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000014s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000489s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000457s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000500s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000082s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.054977s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.055022s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000281s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000311s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000601s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000642s ]
+
+[ 2018-01-30T17:03:07+08:00 ] ::1 /phpwork/mythinkphp/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000017s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000573s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000553s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000607s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000072s ]
+NOTIC: [8] Undefined variable: list D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: page D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005339s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005375s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000276s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000307s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000434s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000467s ]
+
+[ 2018-01-30T17:03:08+08:00 ] ::1 /phpwork/mythinkphp/index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000462s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000439s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000482s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004395s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004441s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000304s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000446s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000478s ]
+
+[ 2018-01-30T17:03:19+08:00 ] ::1 /phpwork/mythinkphp/index.php/Home/User/do_register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000400s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000491s ]
+SQL: SHOW COLUMNS FROM `mb_user` [ RunTime:0.0010s ]
+SQL: SELECT * FROM `mb_user` WHERE `username` = 'xj' LIMIT 1   [ RunTime:0.0003s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000036s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000083s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005080s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005134s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000325s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000365s ]
+
+[ 2018-01-30T17:03:25+08:00 ] ::1 /phpwork/mythinkphp/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000385s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000455s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000045s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000104s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005377s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005420s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000293s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000326s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000450s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000483s ]
+
+[ 2018-01-30T17:03:27+08:00 ] ::1 /phpwork/mythinkphp/index.php/Home/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000473s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000453s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000499s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004232s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004274s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000272s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000305s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000501s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000539s ]
+
+[ 2018-01-30T17:03:28+08:00 ] ::1 /phpwork/mythinkphp/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000392s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000462s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000507s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000032s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000073s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004527s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004569s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000324s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000364s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000465s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000501s ]
+
+[ 2018-01-30T17:03:29+08:00 ] ::1 /phpwork/mythinkphp/index.php/Home/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000444s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004394s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004447s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000275s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000308s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000457s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2018-01-30T17:03:31+08:00 ] ::1 /phpwork/mythinkphp/index.php/Home/User/login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000371s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000437s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000480s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000029s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004237s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004291s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000306s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000345s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000463s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000496s ]
+
+[ 2018-01-30T17:03:33+08:00 ] ::1 /phpwork/mythinkphp/index.php/Home/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000407s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000456s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000501s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000068s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004230s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004271s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000329s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000504s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000538s ]
+
+[ 2018-01-30T17:30:48+08:00 ] ::1 /phpwork/mythinkphp/index.php/Home/User/register
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000050s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000741s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000636s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000686s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000034s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000074s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004664s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004708s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000363s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000396s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000658s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000699s ]
+
+[ 2018-01-30T17:30:59+08:00 ] ::1 /phpwork/mythinkphp/index.php
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000013s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000484s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000448s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000489s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: list D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: page D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.007745s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.007790s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000307s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000338s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000459s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000490s ]
+
+[ 2018-01-30T17:31:00+08:00 ] ::1 /phpwork/mythinkphp/index.php/Home/User/login.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000367s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000441s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000488s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000069s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004240s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004288s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000302s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000538s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000593s ]
+
+[ 2018-01-30T17:31:08+08:00 ] ::1 /phpwork/mythinkphp/index.php/Home/User/do_login
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000012s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000417s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000542s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000584s ]
+SQL: SHOW COLUMNS FROM `mb_user` [ RunTime:0.0014s ]
+SQL: SELECT * FROM `mb_user` WHERE `username` = 'xj' LIMIT 1   [ RunTime:0.0003s ]
+
+[ 2018-01-30T17:31:08+08:00 ] ::1 /phpwork/mythinkphp/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000368s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000593s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000646s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000033s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000071s ]
+NOTIC: [8] Undefined variable: list D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: page D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.005808s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.005847s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000395s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000426s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000527s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000560s ]
+
+[ 2018-01-30T17:31:11+08:00 ] ::1 /phpwork/mythinkphp/index.php/Home/User/logout.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000011s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000373s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000443s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000486s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000030s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000066s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004273s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004315s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000270s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000300s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000445s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000477s ]
+
+[ 2018-01-30T17:31:12+08:00 ] ::1 /phpwork/mythinkphp/index.php/Home/Index/index.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000389s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000447s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000490s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000035s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000085s ]
+NOTIC: [8] Undefined variable: list D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 18 行.
+NOTIC: [8] Undefined variable: page D:\AppServ\www\phpwork\mythinkphp\Application\Runtime\Cache\Home\2a94b8bda04ff446dcedd42276fc99ee.php 第 25 行.
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.006741s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.006834s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000387s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000488s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000462s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000494s ]
+
+[ 2018-01-30T17:31:14+08:00 ] ::1 /phpwork/mythinkphp/index.php/Home/User/register.html
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000375s ]
+INFO: [ app_begin ] --START--
+INFO: Run Behavior\ReadHtmlCacheBehavior [ RunTime:0.000589s ]
+INFO: [ app_begin ] --END-- [ RunTime:0.000641s ]
+INFO: [ view_parse ] --START--
+INFO: [ template_filter ] --START--
+INFO: Run Behavior\ContentReplaceBehavior [ RunTime:0.000031s ]
+INFO: [ template_filter ] --END-- [ RunTime:0.000070s ]
+INFO: Run Behavior\ParseTemplateBehavior [ RunTime:0.004349s ]
+INFO: [ view_parse ] --END-- [ RunTime:0.004395s ]
+INFO: [ view_filter ] --START--
+INFO: Run Behavior\WriteHtmlCacheBehavior [ RunTime:0.000317s ]
+INFO: [ view_filter ] --END-- [ RunTime:0.000351s ]
+INFO: [ app_end ] --START--
+INFO: Run Behavior\ShowPageTraceBehavior [ RunTime:0.000480s ]
+INFO: [ app_end ] --END-- [ RunTime:0.000513s ]
+

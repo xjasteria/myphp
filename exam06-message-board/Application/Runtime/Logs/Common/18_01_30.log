@@ -1,0 +1,18 @@
+[ 2018-01-30T16:34:10+08:00 ] ::1 /phpwork/mythinkphp/%7BU('User/login')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000379s ]
+ERR: 无法加载模块:{U('User
+
+[ 2018-01-30T16:34:27+08:00 ] ::1 /phpwork/mythinkphp/%7BU('User/login')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000016s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000541s ]
+ERR: 无法加载模块:{U('User
+
+[ 2018-01-30T16:34:29+08:00 ] ::1 /phpwork/mythinkphp/%7BU('User/login')%7D
+INFO: [ app_init ] --START--
+INFO: Run Behavior\BuildLiteBehavior [ RunTime:0.000010s ]
+INFO: [ app_init ] --END-- [ RunTime:0.000362s ]
+ERR: 无法加载模块:{U('User
+
